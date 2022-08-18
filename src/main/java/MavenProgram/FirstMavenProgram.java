@@ -6,7 +6,7 @@ public class FirstMavenProgram {
             System.setProperty("webdriver.chrome.driver","C:/Users/swapn/Downloads/chromedriver_win32/chromedriver.exe");
             WebDriver driver= new ChromeDriver();
             driver.get("http:\\www.facebook.com");
-            Thread.sleep();
+            Thread.(4000);
             driver.close();
         }
 }
